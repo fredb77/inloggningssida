@@ -1,0 +1,29 @@
+
+/*
+    Lite enkel css för index.html
+*/
+
+body {
+    background-color: white;
+    font-family: 'Manjari', sans-serif;
+    margin-top: 150px;
+}
+
+div {
+    border: 2px black solid;
+    width: 300px;
+    padding: 30px;
+    background-color: #F3E0BE;
+}
+
+#login, #pass {
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 3px;
+}
+
+button {
+    font-family: 'Manjari', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
