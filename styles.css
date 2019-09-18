@@ -4,16 +4,19 @@
 */
 
 body {
-    background-color: white;
+    margin-left: 10px;
+    margin-top: 0px;
+    background-color: lightgrey;
     font-family: 'Manjari', sans-serif;
-    margin-top: 150px;
 }
 
-div {
+.login-div {
+    border-radius: 25px;
     border: 2px black solid;
-    width: 300px;
+    width: 400px;
     padding: 30px;
-    background-color: #F3E0BE;
+    
+    /*background-color: #F3E0BE;*/
 }
 
 #login, #pass {
@@ -26,4 +29,27 @@ button {
     font-family: 'Manjari', sans-serif;
     font-weight: bold;
     padding: 5px;
+}
+
+.col-sm-6 {
+    color: white;
+    padding: 20px;
+    background-color: black;
+    font-size: 25px;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: silver;
+}
+
+#mess {
+    padding-top: 30px;
+}
+
+#icon {
+    text-align: right;
 }
